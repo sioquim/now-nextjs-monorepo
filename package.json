@@ -1,0 +1,12 @@
+{
+  "name": "demo",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start --stream --parallel",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
